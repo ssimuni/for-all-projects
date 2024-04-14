@@ -8,12 +8,12 @@ import {
 import Root from './components/Root';
 import Home from './components/Home';
 import Login from './components/Login';
-import Register from './components/REgister';
+import Register from './components/Register';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element:<Root></Root>,
+    element: <Root></Root>,
     children: [
       {
         path: '/',
